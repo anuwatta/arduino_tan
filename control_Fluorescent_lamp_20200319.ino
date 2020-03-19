@@ -1,3 +1,7 @@
+/*
+arduino nano 3 control Fluorescent lamp by ir remote infrared
+Mr.SanTa
+*/
 #include <IRremote.h>
 
 const int RECV_PIN = 7;
