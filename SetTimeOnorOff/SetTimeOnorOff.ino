@@ -41,8 +41,8 @@ void loop()
   Serial.println();
   Serial.println("--------------------------------");
   delay(1000); //Delay is for displaying the time in 1 second interval.
-if (t.hour == 15 && t.min == 41 && t.sec == 45) 
-//Setting alarm/timer at every 2:32:53pm, 
+if (t.hour == 18 && t.min == 30 && t.sec == 00) 
+//Setting alarm/timer at every 6:30:00pm, 
 //in other words you can insert t.dow for every Thursday?, t.date for specific date?
   { 
     Serial.println("Open");
@@ -52,8 +52,8 @@ if (t.hour == 15 && t.min == 41 && t.sec == 45)
 //Lets say that your component is wired to pin 99 and be switched on for 5 seconds, 
 //whatever you want to do with it
   }
-  if (t.hour == 15 && t.min == 41 && t.sec == 55) 
-//Setting alarm/timer at every 2:32:53pm, 
+  if (t.hour == 6 && t.min == 30 && t.sec == 00) 
+//Setting alarm/timer at every 6:30:00am, 
 //in other words you can insert t.dow for every Thursday?, t.date for specific date?
   { 
     Serial.println("Close");
